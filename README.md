@@ -16,8 +16,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/home)
+- GitHub: [@githubhandle](https://github.com/Theodore354)
+- Twitter: [@twitterhandle](https://twitter.com/Alberttheodore1)
 
 👤
 

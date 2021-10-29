@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter-VariableFont_slnt\wght.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.logo-sec {
+  display: flex;
+  flex-direction: row;
+  height: 66px;
+  width: 375px;
+}
+
+.wel {
+  flex: 1;
+  color: rgba(40, 53, 47, 1);
+  font-size: 20px;
+  width: 90px;
+  font-weight: 600;
+  margin-right: 209px;
+  height: 28px;
+  margin-left: 24px;
+  margin-top: 22px;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.image {
+  flex: 1;
+  width: 18px;
+  height: 16px;
+  margin-right: 32px;
+}
+
+.info1 {
+  display: flex;
+  width: 375px;
+  height: 590px;
+  flex-direction: column;
+  background-image: url("img/bg1.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.heading {
+  flex: 1;
+  display: flex;
+  margin-top: 32px;
+  flex-direction: column;
+  width: 327px;
+  max-height: 192px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+  align-items: center;
+}
+
+.heading1 {
+  flex: 1;
+  font-size: 40px;
+  font-family: Inter, sans-serif;
+  line-height: 52px;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.heading2 {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #36b37f;
+  margin-top: 0;
+  text-align: center;
+}
+
+.texting {
+  flex: 1;
+  display: flex;
+  margin-top: 58px;
+  width: 327px;
+  height: 164px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.text1 {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #172b4d;
+  text-align: center;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin-top: 58px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon1 {
+  flex: 1;
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.icon2 {
+  flex: 1;
+  margin-left: 19.78px;
+  width: 20px;
+  height: 20px;
+}
+
+.icon3 {
+  flex: 1;
+  margin-left: 20px;
+  width: 20px;
+  height: 16px;
+  margin-top: 4px;
+}
+
+.icon4 {
+  flex: 1;
+  margin-left: 20px;
+  width: 17.99px;
+  height: 20px;
+}
+
+.icon5 {
+  flex: 1;
+  margin-left: 19.01px;
+  width: 14.17px;
+  height: 20px;
+}

@@ -11,6 +11,7 @@ li {
   flex-direction: row;
   height: 66px;
   width: 375px;
+  background-color: white;
 }
 
 .wel {
@@ -29,7 +30,7 @@ li {
   flex: 1;
   display: flex;
   flex-direction: row;
-  margin-top: 25px;
+  margin-top: 29px;
 }
 
 .image {
@@ -42,7 +43,7 @@ li {
 .info1 {
   display: flex;
   width: 375px;
-  height: 590px;
+  height: auto;
   flex-direction: column;
   background-image: url("img/bg1.png");
   background-repeat: no-repeat;
@@ -111,8 +112,9 @@ li {
   display: flex;
   flex-direction: row;
   margin-top: 58px;
-  margin-left: auto;
+  margin-left: 60px;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 .icon1 {
@@ -150,7 +152,92 @@ li {
   height: 20px;
 }
 
+.actiondiv {
+  flex: 1;
+  display: flex;
+  width: 327px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.action {
+  flex: 1;
+  width: 40px;
+  height: 40px;
+}
+
 @font-face {
   font-family: Inter;
   src: url(Inter-VariableFont_slnt\wght.ttf);
+}
+
+body {
+  background-color: red;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin-top: 0;
+  background-color: #fff;
+}
+
+.title {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  height: 97px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+hr {
+  flex: 1;
+  width: 48px;
+  height: 4px;
+  color: rgba(54, 179, 126, 1);
+  top: 121px;
+  margin-right: auto;
+  margin-right: auto;
+}
+
+.project_block {
+  display: grid;
+  width: 375px;
+  background-color: #fff;
+  grid-template-areas: "grade1" "grade2" "grade3" "grade4" "grade5" "grade6";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grade1 {
+  grid-area: grade1;
+}
+
+.grade2 {
+  grid-area: grade2;
+}
+
+.grade3 {
+  grid-area: grade3;
+}
+
+.grade4 {
+  grid-area: grade4;
+}
+
+.grade5 {
+  grid-area: grade5;
+}
+
+.grade6 {
+  grid-area: grade6;
 }

@@ -11,6 +11,7 @@ li {
   flex-direction: row;
   height: 66px;
   width: 375px;
+  background-color: white;
 }
 
 .wel {
@@ -29,7 +30,7 @@ li {
   flex: 1;
   display: flex;
   flex-direction: row;
-  margin-top: 25px;
+  margin-top: 29px;
 }
 
 .image {
@@ -42,7 +43,7 @@ li {
 .info1 {
   display: flex;
   width: 375px;
-  height: 590px;
+  height: auto;
   flex-direction: column;
   background-image: url("img/bg1.png");
   background-repeat: no-repeat;
@@ -153,4 +154,275 @@ li {
 @font-face {
   font-family: Inter;
   src: url(Inter-VariableFont_slnt\wght.ttf);
+}
+
+.actiondiv {
+  flex: 1;
+  display: flex;
+  width: 327px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.action {
+  flex: 1;
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  background-color: red;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin-top: 0;
+  background-color: #fff;
+}
+.title {
+  flex: 1;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  height: 97px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 22px;
+}
+
+hr {
+  flex: 1;
+  width: 48px;
+  height: 4px;
+  color: rgba(54, 179, 126, 1);
+  top: 121px;
+  margin-right: auto;
+}
+
+.project_block {
+  display: grid;
+  width: 375px;
+  background-color: #fff;
+  grid-template-areas: "grade1" "grade2" "grade3" "grade4" "grade5" "grade6";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.grade1 {
+  grid-area: grade1;
+  width: 327px;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.grade2 {
+  grid-area: grade2;
+  width: 327px;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.grade3 {
+  grid-area: grade3;
+  width: 327px;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.grade4 {
+  grid-area: grade4;
+  width: 327px;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.grade5 {
+  grid-area: grade5;
+  height: auto;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.grade6 {
+  grid-area: grade6;
+  width: 327px;
+  height: auto;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+}
+
+.pro {
+  display: flex;
+  margin-top: 252px;
+  max-width: 327px;
+  height: auto;
+  margin-left: 0;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.grade-title {
+  flex: 1;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  max-width: 295px;
+  height: 57px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.rucsht {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  margin-left: 55px;
+  margin-right: 40px;
+  height: 32px;
+  max-width: 300px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.ruby {
+  flex: 1;
+  min-width: 79px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+}
+
+.css {
+  flex: 1;
+  max-width: 21px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: 8px;
+}
+
+.javaScript {
+  flex: 1;
+  max-width: 58px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: 8px;
+}
+
+.html {
+  flex: 1;
+  max-width: 27px;
+  height: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #3a4a42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: rgba(208, 217, 212, 1);
+  margin-left: 8px;
+  margin-right: 50px;
+}
+
+.project {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 122px;
+  height: 48px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 12px;
+  padding-top: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgba(54, 179, 127, 1);
+  margin-bottom: 24px;
+  margin-top: 29px;
 }
